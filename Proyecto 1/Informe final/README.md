@@ -25,11 +25,11 @@
 
 ## 1. Introducción
 
-La capacitación tuvo como propósito explicar de forma clara y práctica qué son las APIs REST, cómo funcionan y por qué son importantes en el desarrollo de aplicaciones modernas. Este tipo de API permite la comunicación entre diferentes sistemas, facilitando el intercambio de información entre el frontend, el backend y la base de datos mediante peticiones y respuestas.
+La capacitación se desarrollo en la Zona 1 de la Ciudad de Guatemala, en un colegio de nombre "Colegio Mixto Indo Latino" y tuvo como propósito explicar de forma clara y práctica qué son las APIs REST, cómo funcionan y por qué son importantes en el desarrollo de aplicaciones modernas. Este tipo de API permite la comunicación entre diferentes sistemas, facilitando el intercambio de información entre el frontend, el backend y la base de datos mediante peticiones y respuestas.
 
 La importancia de las APIs REST radica en que son ampliamente utilizadas para conectar aplicaciones y servicios, permitiendo realizar operaciones como consultar, crear, actualizar o eliminar información mediante métodos HTTP.
 
-El objetivo general del proyecto fue que los participantes comprendieran el funcionamiento básico de una API REST y pudieran identificar sus principales componentes y métodos a través de explicaciones, ejemplos y una demostración práctica.
+El objetivo general del proyecto fue que los participantes en este caso estudiantes de nivel 4to Bachiller en Computación, comprendieran el funcionamiento básico de una API REST y pudieran identificar sus principales componentes y métodos a través de explicaciones, ejemplos y una demostración práctica.
 
 ---
 
@@ -264,6 +264,7 @@ Para ejemplificar de mejor manera la teoría explicada, se utilizó una aplicaci
 - **Link de la presentación usada:** https://canva.link/xm84lbiabnp60ig
 - **Proyecto usado en la capacitación:** https://github.com/sebasjsx/gestorDeTareas
 - **Kahoot usado en la capacitación:** https://create.kahoot.it/share/apis-rest-y-tokens-ca/f601cc54-298a-4535-8ea9-3b5aa76f4522
+- **Lugar donde se realizo la capacitación:** https://maps.app.goo.gl/mntU8nuiHq3ivyEY7
 
 ---
 
