@@ -164,6 +164,26 @@ Para ejemplificar de mejor manera la teoría explicada, se utilizó una aplicaci
 * Los errores de otros integrantes pueden afectar mi concentración si me enfoco demasiado en corregirlos.
 * La presión de cumplir con el tiempo establecido puede hacer que explique la información de manera demasiado rápida.
 
+### Chung Kim
+
+#### Fortalezas
+- Logré un buen dominio de mi tema sobre la seguridad en las APIs.
+- Interactué con el público realizando preguntas para asegurarme de que realmente estaban comprendiendo la explicación.
+
+#### Oportunidades
+- Aprender a controlar el nerviosismo al momento de exponer frente a una audiencia.
+- Practicar para hablar de forma más lenta, clara y pausada.
+- Desarrollar técnicas para asegurar y mantener la atención del público durante toda la presentación.
+
+#### Debilidades
+- Hablé muy rápido durante la charla.
+- Me demoré un poco en terminar la parte del proyecto que me correspondía.
+- Faltó proactividad de mi parte para tomar notas cuando el grupo se estaba poniendo de acuerdo.
+
+#### Amenazas
+- La dificultad para organizar y asimilar mi propia información puede afectar los tiempos de entrega del equipo.
+- El estrés y la presión de hablar frente al público pueden provocar bloqueos o afectar mi claridad al exponer.
+
 ---
 
 ### 4.2 FODA grupal
