@@ -42,7 +42,9 @@ Explicar de manera clara y práctica el funcionamiento de las APIs REST, sus pri
 ### 2.2 Objetivos específicos
 
 -Identificar los principales componentes de una API REST, incluyendo clientes, servidores, endpoints, métodos HTTP, URL, parámetros, headers y body.
+
 -Explicar cómo se realiza el intercambio de información mediante APIs REST, utilizando ejemplos cotidianos y formatos como JSON para facilitar la comprensión de los conceptos técnicos.
+
 -Demostrar mediante ejemplos prácticos el funcionamiento de las peticiones y respuestas HTTP, incluyendo los métodos GET, POST, PUT, PATCH y DELETE, así como los principales códigos de respuesta HTTP.
 
 ---
@@ -82,10 +84,15 @@ Explicacion general de que son las APIs REST, para que sirven y por qué se elig
 El intercambio de información en una API REST se realiza mediante solicitudes y respuestas entre el cliente y el servidor. Para explicarlo de forma sencilla, se utilizó como ejemplo la solicitud de un producto.
 
 -URL: indica la dirección del recurso solicitado.
+
 -Parámetros: especifican información adicional de la solicitud, como el producto o la cantidad.
+
 -Headers: contienen información adicional sobre la petición, como el tipo de contenido.
+
 -Body: contiene los datos que se envían al servidor.
+
 -JSON: formato utilizado para organizar y transmitir los datos.
+
 -Códigos HTTP: indican el resultado de la solicitud, por ejemplo, 200 para una solicitud exitosa, 404 cuando no se encuentra el recurso y 500 cuando ocurre un error en el servidor.
 
 De esta manera, una API REST permite que diferentes aplicaciones intercambien información de forma estructurada mediante peticiones y respuestas.
@@ -130,22 +137,22 @@ Para ejemplificar de mejor manera la teoría explicada, se utilizó una aplicaci
 
 ### Marina Mejia 
 
-####Fortalezas
+#### Fortalezas
 * Tengo facilidad para expresarme y comunicar ideas de manera clara frente a otras personas.
 * Tengo buena capacidad de retención y puedo aprender y recordar información en poco tiempo.
 * Cuando conozco y comprendo el tema, puedo transmitir la información con seguridad y entusiasmo.
 
-####Oportunidades
+#### Oportunidades
 * Mejorar mi manejo de los nervios al hablar frente a un grupo de personas.
 * Fortalecer mi contacto visual y mi interacción con el público durante futuras exposiciones.
 * Desarrollar estrategias para mantener la concentración aunque ocurran imprevistos durante una actividad.
 
-####Debilidades
+#### Debilidades
 * Tiendo a estresarme cuando las cosas no salen de acuerdo con lo planificado.
 * El contacto visual directo con muchas personas puede aumentar mis nervios y dificultar que recuerde lo que debo explicar.
 * En ocasiones puedo ser demasiado precipitada al realizar actividades o tomar decisiones.
 
-####Amenazas
+#### Amenazas
 * Los nervios durante una exposición pueden afectar mi fluidez y la forma de transmitir la información.
 * Los errores de otros integrantes pueden afectar mi concentración si me enfoco demasiado en corregirlos.
 * La presión de cumplir con el tiempo establecido puede hacer que explique la información de manera demasiado rápida.
