@@ -17,7 +17,7 @@
 | 3 | Pablo Colop |  |  |
 | 4 | Walter Martinez |  |  |
 | 5 | Aura Marina |202500244  | 202500244 |
-| 6 | Chung Kim |  |  |
+| 6 | Chung Kim | 202501625 | 3629846541801-ops |
 
 **Fecha de entrega:** 23/09/2026
 
@@ -97,13 +97,20 @@ El intercambio de información en una API REST se realiza mediante solicitudes y
 
 De esta manera, una API REST permite que diferentes aplicaciones intercambien información de forma estructurada mediante peticiones y respuestas.
 
-#### Seguridad en API REST
-- HTTPS.
-- Autenticación.
-- Autorización.
-- Tokens.
-- Roles.
-- Validación.
+#### Seguridad en API REST (encargado: Chung Kim)
+Para garantizar que los datos estén protegidos y evitar accesos no deseados, una API debe implementar las siguientes medidas clave:
+
+- HTTPS: Es el protocolo que cifra la comunicación entre el cliente y el servidor, asegurando que nadie pueda interceptar o leer los datos en tránsito.
+  
+- Autenticación: Es el proceso de verificar la identidad del usuario o sistema que intenta acceder a la API (saber "quién eres", usualmente con usuario/contraseña).
+  
+- Autorización: Es el paso posterior a la autenticación que verifica qué acciones o recursos tienes permitido utilizar (saber "qué puedes hacer").
+  
+- Tokens: Son cadenas de texto seguras (como los JWT) que se le dan al usuario una vez autenticado. Se envían en cada petición para comprobar su identidad sin tener que pedir la contraseña cada vez.
+  
+- Roles: Son grupos de permisos predefinidos (ej. Administrador, Editor, Lector) que se asignan a los usuarios para facilitar el control de autorización.
+  
+- Validación: Es la revisión obligatoria de toda la información que el cliente envía a la API para asegurar que tenga el formato correcto y no contenga código malicioso.
 
 #### Ejercicio práctico (encargado: Denis Abad)
 Para ejemplificar de mejor manera la teoría explicada, se utilizó una aplicación de gestión de tareas. El backend fue desarrollado con Node.js y Express, el frontend con React y la base de datos con MongoDB. Su principal objetivo fue demostrar de forma práctica el funcionamiento de los métodos HTTP dentro de una aplicación real.
@@ -173,9 +180,9 @@ Para ejemplificar de mejor manera la teoría explicada, se utilizó una aplicaci
 
 ## 5. Conclusiones
 
-- conclusion 1
-- conclusion 2
-- conclusion 3
+- Las APIs REST son clave en la programación actual, ya que permiten que las distintas partes de una aplicación (frontend, backend y bases de datos) se comuniquen entre sí de una forma mucho más fácil y ordenada.
+- La seguridad en una API es obligatoria. Proteger las conexiones, controlar quién entra al sistema usando tokens y revisar que la información enviada sea correcta, son pasos necesarios para mantener cualquier proyecto a salvo de ataques.
+- Combinar la teoría con un ejemplo práctico, como lo hicimos con el gestor de tareas, es una excelente manera de ayudar a los estudiantes a visualizar y entender cómo funcionan realmente las peticiones y respuestas en una aplicación real.
 
 ---
 
