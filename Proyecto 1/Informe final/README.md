@@ -263,7 +263,7 @@ Para ejemplificar de mejor manera la teoría explicada, se utilizó una aplicaci
 
 - **Link de la presentación usada:** https://canva.link/xm84lbiabnp60ig
 - **Proyecto usado en la capacitación:** https://github.com/sebasjsx/gestorDeTareas
-
+- **Kahoot usado en la capacitación:** https://create.kahoot.it/share/apis-rest-y-tokens-ca/f601cc54-298a-4535-8ea9-3b5aa76f4522
 
 ---
 
@@ -280,6 +280,7 @@ Para ejemplificar de mejor manera la teoría explicada, se utilizó una aplicaci
 
 ---
 
-## 7. Enlaces
+## 7. Grabaciones
 
 - **Link Video de la capacitación:** https://youtu.be/j8YB0FtYnBY?si=fOUoM-BSaACinW7o
+- **Link Video de la planificacion:** https://youtu.be/uQWEjpbOrPs?si=kJoh5T_4E3hVt7oe
