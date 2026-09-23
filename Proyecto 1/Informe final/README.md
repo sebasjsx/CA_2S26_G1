@@ -13,9 +13,9 @@
 | No. | Nombre | Carnet | Usuario de GitHub |
 |---:|---|---|---|
 | 1 | Denis Abad | 202504781 | sebasjsx |
-| 2 | Esther Garcia |  |  |
+| 2 | Esther Garcia | 202500170 |  |
 | 3 | Pablo Colop | 202500752 | Pablocob |
-| 4 | Walter Martinez |  |  |
+| 4 | Walter Martinez | 202500147 | walm1 |
 | 5 | Aura Marina |202500244  | 202500244 |
 | 6 | Chung Kim | 202501625 | 3629846541801-ops |
 
@@ -84,13 +84,13 @@ Explicacion general de que son las APIs REST, para que sirven y por qué se elig
 
   * **Respuesta (Response):** Es el paquete de datos que el servidor devuelve al cliente; incluye la información solicitada  y un mensaje de estado.
 
-#### Métodos HTTP
-- GET.
-- POST.
-- PUT.
-- PATCH.
-- DELETE.
-
+#### Métodos HTTP (encargado: Walter Martínez)
+- **GET:** Solicita la lectura o recuperación de datos de un recurso en el servidor sin modificarlo.
+- **POST:** Envía datos al servidor para crear un recurso nuevo.
+- **PUT:** Actualiza o reemplaza por completo un recurso existente en el servidor con los datos enviados.
+- **PATCH:** Aplica modificaciones parciales a un recurso existente, actualizando solo los campos especificados.
+- **DELETE:** Elimina un recurso específico del servidor.
+  
 #### Intercambio de información
 El intercambio de información en una API REST se realiza mediante solicitudes y respuestas entre el cliente y el servidor. Para explicarlo de forma sencilla, se utilizó como ejemplo la solicitud de un producto.
 
@@ -196,21 +196,44 @@ Para ejemplificar de mejor manera la teoría explicada, se utilizó una aplicaci
 - El estrés y la presión de hablar frente al público pueden provocar bloqueos o afectar mi claridad al exponer.
 
 ### Pablo Colop
+
 #### Fortalezas
 - Tengo facilidad al adaptar información compleja y explicarla de forma sencilla.
 - Cuando presento un tema trato de no usar un lenguaje muy tecnico.
+  
 #### Oportunidades
 - Mejorar mi confianza y fluidez al hablar frente a un público numeroso.
 - Desarrollar una mejor interacción y manejo de la audiencia durante la exposición.
 - Fortalecer mis habilidades de comunicación asertiva para proyectos futuros.
+  
 #### Debilidades
 - Casi siempre al exponer me pongo nervioso.
 - Suelo hablar mas rapido cuadno me dan nervios.
 - Me cuesta mantener un contacto visual constante con todo el auditorio
+  
 #### Amenazas
 - Que los nervios del momento afecten mi fluidez al explicar mi parte del tema.
 - Que distracciones externas en el salón me hagan perder el hilo de mi discurso.
 
+### Walter Martínez
+
+#### Fortalezas
+- Cuento con conocimientos previos sobre el tema, lo cual facilita la comprensión.
+- Facilidad para trabajar y desarrollar proyectos en equipo.
+- Tengo una buena capacidad de retención y comprensión, lo que me permite exponer conceptos tecnológicos con cierta facilidad.
+
+#### Oportunidades
+- Desarrollar técnicas para controlar mis nervios y proyectar más seguridad al exponer ante una audiencia.
+- Fortalecer mis habilidades para comunicar conceptos avanzados de forma sencilla.
+- Trabajar con técnicas para mantener la atención de la audiencia y mejorar la interacción.
+
+#### Debilidades
+- Nerviosismo al exponer frente a una audiencia.
+- Dificultad para mantener el contacto visual con la audiencia.
+
+#### Amenazas
+- Interrupciones externas u otros factores en el aula que distraigan al grupo.
+- Los nervios afectan mi confianza y fluidez al hablar.
 ---
 
 ### 4.2 FODA grupal
@@ -245,6 +268,15 @@ Para ejemplificar de mejor manera la teoría explicada, se utilizó una aplicaci
 ---
 
 ### 6.2 Tabla de porcentaje de participación
+| No. | Nombre | Carnet | Tareas realizadas | Participación (%) |
+|:---:|:---|:---|:---|:---:|
+| 1 | Denis Abad | 202504781 | Reunión de planificación, desarrollo de informes, exposición de presentación práctica (10 min). | 17.0% |
+| 2 | Esther Garcia | 202500170 | Reunión de planificación, desarrollo de informes, preguntas Kahoot, exposición: Introducción (6 min). | 16.6% |
+| 3 | Pablo Colop | 202500752 | Reunión de planificación, desarrollo de informes, preguntas Kahoot, exposición: Arquitectura (6 min). | 16.6% |
+| 4 | Walter Martinez | 202500147 | Reunión de planificación, desarrollo de informes, preguntas Kahoot, exposición: Métodos HTTP (6 min). | 16.6% |
+| 5 | Aura Marina | 202500244 | Reunión de planificación, desarrollo de informes, preguntas Kahoot, exposición: Intercambio de información (6 min). | 16.6% |
+| 6 | Chung Kim | 202501625 | Reunión de planificación, desarrollo de informes, preguntas Kahoot, exposición: Seguridad en APIs REST (6 min). | 16.6% |
+| | **Total** | | | **100%** |
 
 ---
 
