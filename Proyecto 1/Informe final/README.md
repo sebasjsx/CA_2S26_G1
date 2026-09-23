@@ -64,14 +64,25 @@ Explicacion general de que son las APIs REST, para que sirven y por qué se elig
 - Ejemplos cotidianos.
 
 #### Arquitectura y funcionamiento
-- Cliente.
-- Servidor.
-- API.
-- Frontend.
-- Backend.
-- Base de datos.
-- Endpoints.
-- Peticiones y respuestas.
+* **Cliente:** Es el quien que inicia la comunicación. En términos resumidos, es cualquier dispositivo, navegador web o aplicación móvil que necesita acceder a una información o servicio. El cliente es el responsable de generar y enviar la solicitud inicial.
+
+* **Servidor:** Equipo remoto que recibe la solicitud, procesa la lógica del sistema y entrega el resultado.
+
+- **API (Interfaz de Programación de Aplicaciones):** Actúa como el puente estandarizado entre el cliente y el servidor. Define las reglas, protocolos y formatos de mensajes que ambos deben usar para entenderse mutuamente.
+
+- **Interfaz / Frontend:** Es la capa con la que el usuario interactúa visualmente en el cliente.
+
+- **Backend:** Es toda la infraestructura tecnológica que opera "detrás de escena" y que el usuario final no ve. El backend engloba al servidor, la lógica de negocio de la aplicación, las medidas de seguridad y la conexión con el almacenamiento de datos.
+
+- **Base de datos:** Sistema de almacenamiento estructurado donde se guardan datos como usuarios, fotos y registros.
+
+- **Endpoints (Puntos finales):** Son las rutas, URLs o direcciones web específicas que la API expone para que el cliente acceda a recursos concretos. Cada punto final representa una función o conjunto de datos particular.
+
+- **Peticiones y respuestas:** 
+
+  * **Petición (Request):** Es el mensaje estructurado que el cliente envía al servidor, indicando qué acción desea realizar y a qué punto final se dirige.
+
+  * **Respuesta (Response):** Es el paquete de datos que el servidor devuelve al cliente; incluye la información solicitada  y un mensaje de estado.
 
 #### Métodos HTTP
 - GET.
@@ -183,6 +194,22 @@ Para ejemplificar de mejor manera la teoría explicada, se utilizó una aplicaci
 #### Amenazas
 - La dificultad para organizar y asimilar mi propia información puede afectar los tiempos de entrega del equipo.
 - El estrés y la presión de hablar frente al público pueden provocar bloqueos o afectar mi claridad al exponer.
+
+### Pablo Colop
+#### Fortalezas
+- Tengo facilidad al adaptar información compleja y explicarla de forma sencilla.
+- Cuando presento un tema trato de no usar un lenguaje muy tecnico.
+#### Oportunidades
+- Mejorar mi confianza y fluidez al hablar frente a un público numeroso.
+- Desarrollar una mejor interacción y manejo de la audiencia durante la exposición.
+- Fortalecer mis habilidades de comunicación asertiva para proyectos futuros.
+#### Debilidades
+- Casi siempre al exponer me pongo nervioso.
+- Suelo hablar mas rapido cuadno me dan nervios.
+- Me cuesta mantener un contacto visual constante con todo el auditorio
+#### Amenazas
+- Que los nervios del momento afecten mi fluidez al explicar mi parte del tema.
+- Que distracciones externas en el salón me hagan perder el hilo de mi discurso.
 
 ---
 
