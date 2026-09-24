@@ -10,14 +10,14 @@
 
 ### Integrantes Grupo 1
 
-| No. | Nombre | Carnet | Usuario de GitHub |
-|---:|---|---|---|
-| 1 | Denis Abad | 202504781 | sebasjsx |
-| 2 | Esther Garcia | 202500170 |  |
-| 3 | Pablo Colop | 202500752 | Pablocob |
-| 4 | Walter Martinez | 202500147 | walm1 |
-| 5 | Aura Marina |202500244  | 202500244 |
-| 6 | Chung Kim | 202501625 | 3629846541801-ops |
+| No. | Nombre          | Carnet    | Usuario de GitHub |
+| ---:| --------------- | --------- | ----------------- |
+| 1   | Denis Abad      | 202504781 | sebasjsx          |
+| 2   | Esther Garcia   | 202500170 | Maryagg2004       |
+| 3   | Pablo Colop     | 202500752 | Pablocob          |
+| 4   | Walter Martinez | 202500147 | walm1             |
+| 5   | Aura Marina     | 202500244 | 202500244         |
+| 6   | Chung Kim       | 202501625 | 3629846541801-ops |
 
 **Fecha de entrega:** 23/09/2026
 
@@ -53,21 +53,32 @@ Explicar de manera clara y práctica el funcionamiento de las APIs REST, sus pri
 
 ### 3.1 Tema principal: APIs REST
 
-Explicacion general de que son las APIs REST, para que sirven y por qué se eligió este tema.
+Explicacion general de que son las APIs REST, para que sirven y por qué se eligió este tema.Las **API REST** permiten que una aplicación se comunique con otras para consultar o intercambiar información. Sirven, por ejemplo, para que una tienda en línea integre pagos, mapas, inventario y seguimiento de entregas.
+
+Se eligió este tema porque muestra cómo una aplicación puede aprovechar servicios existentes y definir qué datos permite consultar o modificar.
 
 ### 3.2 Subtemas desarrollados
 
 #### Introducción a las API REST
+
 - Definición de API.
+  
+  **API:** significa *interfaz de programación de aplicaciones*. Es una forma definida de comunicación entre programas para compartir datos o utilizar funciones
+
 - Significado de REST.
-- Propósito.
+  
+  **REST:** significa *Representational State Transfer* («transferencia de estado representacional»). Es un estilo para diseñar API que permite acceder a recursos, como productos o pedidos, mediante solicitudes web.
+  
+  **Propósito:** conectar sistemas y establecer qué información puede consultar, crear o modificar otra aplicación.
+
 - Ejemplos cotidianos.
+  una tienda que consulta productos disponibles en su inventario, envía un pago a una pasarela, valida una dirección con un servicio de mapas o muestra el seguimiento de un paquete mediante la empresa de transporte.
 
 #### Arquitectura y funcionamiento
+
 * **Cliente:** Es el quien que inicia la comunicación. En términos resumidos, es cualquier dispositivo, navegador web o aplicación móvil que necesita acceder a una información o servicio. El cliente es el responsable de generar y enviar la solicitud inicial.
 
 * **Servidor:** Equipo remoto que recibe la solicitud, procesa la lógica del sistema y entrega el resultado.
-
 - **API (Interfaz de Programación de Aplicaciones):** Actúa como el puente estandarizado entre el cliente y el servidor. Define las reglas, protocolos y formatos de mensajes que ambos deben usar para entenderse mutuamente.
 
 - **Interfaz / Frontend:** Es la capa con la que el usuario interactúa visualmente en el cliente.
@@ -79,19 +90,21 @@ Explicacion general de que son las APIs REST, para que sirven y por qué se elig
 - **Endpoints (Puntos finales):** Son las rutas, URLs o direcciones web específicas que la API expone para que el cliente acceda a recursos concretos. Cada punto final representa una función o conjunto de datos particular.
 
 - **Peticiones y respuestas:** 
-
+  
   * **Petición (Request):** Es el mensaje estructurado que el cliente envía al servidor, indicando qué acción desea realizar y a qué punto final se dirige.
-
+  
   * **Respuesta (Response):** Es el paquete de datos que el servidor devuelve al cliente; incluye la información solicitada  y un mensaje de estado.
 
 #### Métodos HTTP (encargado: Walter Martínez)
+
 - **GET:** Solicita la lectura o recuperación de datos de un recurso en el servidor sin modificarlo.
 - **POST:** Envía datos al servidor para crear un recurso nuevo.
 - **PUT:** Actualiza o reemplaza por completo un recurso existente en el servidor con los datos enviados.
 - **PATCH:** Aplica modificaciones parciales a un recurso existente, actualizando solo los campos especificados.
 - **DELETE:** Elimina un recurso específico del servidor.
-  
+
 #### Intercambio de información
+
 El intercambio de información en una API REST se realiza mediante solicitudes y respuestas entre el cliente y el servidor. Para explicarlo de forma sencilla, se utilizó como ejemplo la solicitud de un producto.
 
 -URL: indica la dirección del recurso solicitado.
@@ -109,21 +122,23 @@ El intercambio de información en una API REST se realiza mediante solicitudes y
 De esta manera, una API REST permite que diferentes aplicaciones intercambien información de forma estructurada mediante peticiones y respuestas.
 
 #### Seguridad en API REST (encargado: Chung Kim)
+
 Para garantizar que los datos estén protegidos y evitar accesos no deseados, una API debe implementar las siguientes medidas clave:
 
 - HTTPS: Es el protocolo que cifra la comunicación entre el cliente y el servidor, asegurando que nadie pueda interceptar o leer los datos en tránsito.
-  
+
 - Autenticación: Es el proceso de verificar la identidad del usuario o sistema que intenta acceder a la API (saber "quién eres", usualmente con usuario/contraseña).
-  
+
 - Autorización: Es el paso posterior a la autenticación que verifica qué acciones o recursos tienes permitido utilizar (saber "qué puedes hacer").
-  
+
 - Tokens: Son cadenas de texto seguras (como los JWT) que se le dan al usuario una vez autenticado. Se envían en cada petición para comprobar su identidad sin tener que pedir la contraseña cada vez.
-  
+
 - Roles: Son grupos de permisos predefinidos (ej. Administrador, Editor, Lector) que se asignan a los usuarios para facilitar el control de autorización.
-  
+
 - Validación: Es la revisión obligatoria de toda la información que el cliente envía a la API para asegurar que tenga el formato correcto y no contenga código malicioso.
 
 #### Ejercicio práctico (encargado: Denis Abad)
+
 Para ejemplificar de mejor manera la teoría explicada, se utilizó una aplicación de gestión de tareas. El backend fue desarrollado con Node.js y Express, el frontend con React y la base de datos con MongoDB. Su principal objetivo fue demostrar de forma práctica el funcionamiento de los métodos HTTP dentro de una aplicación real.
 
 ---
@@ -135,42 +150,50 @@ Para ejemplificar de mejor manera la teoría explicada, se utilizó una aplicaci
 ### Denis Abad
 
 #### Fortalezas
+
 - Escucho y tomo en cuenta las opiniones de los demás.
 - Estoy dispuesto a asumir responsabilidades y apoyar al grupo.
 - Me preparé para explicar el ejemplo práctico del gestor de tareas.
 
 #### Oportunidades
+
 - Mejorar mi seguridad al hablar frente a muchas personas.
 - Fortalecer mi liderazgo y mi forma de explicar temas técnicos.
 - Desarrollar una mejor interacción con el público.
 
 #### Debilidades
+
 - A veces puedo sentirme tímido o nervioso al exponer.
 - Me cuesta mantener el contacto visual con la audiencia.
 - En ocasiones se me dificulta mantener una comunicación constante con el público.
 
 #### Amenazas
-- Los nervios pueden afectar mi fluidez al explicar.
--  La presión o el estrés pueden afectar mi confianza al momento de tomar decisiones.
 
-### Marina Mejia 
+- Los nervios pueden afectar mi fluidez al explicar.
+- La presión o el estrés pueden afectar mi confianza al momento de tomar decisiones.
+
+### Marina Mejia
 
 #### Fortalezas
+
 * Tengo facilidad para expresarme y comunicar ideas de manera clara frente a otras personas.
 * Tengo buena capacidad de retención y puedo aprender y recordar información en poco tiempo.
 * Cuando conozco y comprendo el tema, puedo transmitir la información con seguridad y entusiasmo.
 
 #### Oportunidades
+
 * Mejorar mi manejo de los nervios al hablar frente a un grupo de personas.
 * Fortalecer mi contacto visual y mi interacción con el público durante futuras exposiciones.
 * Desarrollar estrategias para mantener la concentración aunque ocurran imprevistos durante una actividad.
 
 #### Debilidades
+
 * Tiendo a estresarme cuando las cosas no salen de acuerdo con lo planificado.
 * El contacto visual directo con muchas personas puede aumentar mis nervios y dificultar que recuerde lo que debo explicar.
 * En ocasiones puedo ser demasiado precipitada al realizar actividades o tomar decisiones.
 
 #### Amenazas
+
 * Los nervios durante una exposición pueden afectar mi fluidez y la forma de transmitir la información.
 * Los errores de otros integrantes pueden afectar mi concentración si me enfoco demasiado en corregirlos.
 * La presión de cumplir con el tiempo establecido puede hacer que explique la información de manera demasiado rápida.
@@ -178,73 +201,114 @@ Para ejemplificar de mejor manera la teoría explicada, se utilizó una aplicaci
 ### Chung Kim
 
 #### Fortalezas
+
 - Logré un buen dominio de mi tema sobre la seguridad en las APIs.
 - Interactué con el público realizando preguntas para asegurarme de que realmente estaban comprendiendo la explicación.
 
 #### Oportunidades
+
 - Aprender a controlar el nerviosismo al momento de exponer frente a una audiencia.
 - Practicar para hablar de forma más lenta, clara y pausada.
 - Desarrollar técnicas para asegurar y mantener la atención del público durante toda la presentación.
 
 #### Debilidades
+
 - Hablé muy rápido durante la charla.
 - Me demoré un poco en terminar la parte del proyecto que me correspondía.
 - Faltó proactividad de mi parte para tomar notas cuando el grupo se estaba poniendo de acuerdo.
 
 #### Amenazas
+
 - La dificultad para organizar y asimilar mi propia información puede afectar los tiempos de entrega del equipo.
 - El estrés y la presión de hablar frente al público pueden provocar bloqueos o afectar mi claridad al exponer.
 
 ### Pablo Colop
 
 #### Fortalezas
+
 - Tengo facilidad al adaptar información compleja y explicarla de forma sencilla.
 - Cuando presento un tema trato de no usar un lenguaje muy tecnico.
-  
+
 #### Oportunidades
+
 - Mejorar mi confianza y fluidez al hablar frente a un público numeroso.
 - Desarrollar una mejor interacción y manejo de la audiencia durante la exposición.
 - Fortalecer mis habilidades de comunicación asertiva para proyectos futuros.
-  
+
 #### Debilidades
+
 - Casi siempre al exponer me pongo nervioso.
 - Suelo hablar mas rapido cuadno me dan nervios.
 - Me cuesta mantener un contacto visual constante con todo el auditorio
-  
+
 #### Amenazas
+
 - Que los nervios del momento afecten mi fluidez al explicar mi parte del tema.
 - Que distracciones externas en el salón me hagan perder el hilo de mi discurso.
 
 ### Walter Martínez
 
 #### Fortalezas
+
 - Cuento con conocimientos previos sobre el tema, lo cual facilita la comprensión.
 - Facilidad para trabajar y desarrollar proyectos en equipo.
 - Tengo una buena capacidad de retención y comprensión, lo que me permite exponer conceptos tecnológicos con cierta facilidad.
 
 #### Oportunidades
+
 - Desarrollar técnicas para controlar mis nervios y proyectar más seguridad al exponer ante una audiencia.
 - Fortalecer mis habilidades para comunicar conceptos avanzados de forma sencilla.
 - Trabajar con técnicas para mantener la atención de la audiencia y mejorar la interacción.
 
 #### Debilidades
+
 - Nerviosismo al exponer frente a una audiencia.
 - Dificultad para mantener el contacto visual con la audiencia.
 
 #### Amenazas
+
 - Interrupciones externas u otros factores en el aula que distraigan al grupo.
 - Los nervios afectan mi confianza y fluidez al hablar.
+
+### Esther García
+
+#### Fortaleza
+
+Hablé con un volumen alto y una pronunciación clara. Utilicé la presentación como apoyo sin leerla, lo que me permitió explicar el tema con mis propias palabras.
+
+#### Oportunidades
+
+Puedo practicar el inicio de la exposición para ganar seguridad desde los primeros segundos y usar los ejemplos cotidianos para conectar mejor con el público.
+
+#### Debilidades
+
+Me trabé un poco al comenzar y moví las manos con mucha frecuencia, lo que pudo distraer de la explicación.
+
+#### Amenzas
+
+Los nervios al inicio o una pregunta inesperada podrían hacer que pierda el hilo de la exposición.
+
 ---
 
 ### 4.2 FODA grupal
 
 #### Fortalezas
 
+Nos pusimos de acuerdo rápidamente, distribuimos las responsabilidades y todos aportamos al trabajo. Escuchamos las opiniones de cada integrante y tomamos decisiones pensando en el bien común. Durante la exposición, explicamos los temas con nuestras propias palabras, utilizamos ejemplos prácticos e interactuamos con el público.
+
 #### Oportunidades
+
+Podemos ensayar juntos las transiciones entre expositores, practicar el contacto visual y mejorar el ritmo al hablar. También podemos acordar horarios breves para responder mensajes y revisar el avance de cada parte antes de la entrega.
 
 #### Debilidades
 
+Nos cuesta mantener una comunicación constante en el grupo, especialmente al responder mensajes. Durante la exposición, varios integrantes sentimos nervios; en algunos momentos hablamos rápido, perdimos contacto visual o nos trabamos al iniciar. También hubo una parte del proyecto que tomó más tiempo de lo previsto.
+
 #### Amenazas
+
+- Los imprevistos en el aula, las preguntas inesperadas y la presión del tiempo pueden afectar la concentración y la fluidez del grupo. 
+
+- Si tardamos en responder mensajes, podríamos retrasar decisiones o ajustes de última hora.
 
 ---
 
@@ -260,7 +324,6 @@ Para ejemplificar de mejor manera la teoría explicada, se utilizó una aplicaci
 
 ### 6.1 Material utilizado
 
-
 - **Link de la presentación usada:** https://canva.link/xm84lbiabnp60ig
 - **Proyecto usado en la capacitación:** https://github.com/sebasjsx/gestorDeTareas
 - **Kahoot usado en la capacitación:** https://create.kahoot.it/share/apis-rest-y-tokens-ca/f601cc54-298a-4535-8ea9-3b5aa76f4522
@@ -269,15 +332,16 @@ Para ejemplificar de mejor manera la teoría explicada, se utilizó una aplicaci
 ---
 
 ### 6.2 Tabla de porcentaje de participación
-| No. | Nombre | Carnet | Tareas realizadas | Participación (%) |
-|:---:|:---|:---|:---|:---:|
-| 1 | Denis Abad | 202504781 | Reunión de planificación, desarrollo de informes, exposición de presentación práctica (10 min). | 17.0% |
-| 2 | Esther Garcia | 202500170 | Reunión de planificación, desarrollo de informes, preguntas Kahoot, exposición: Introducción (6 min). | 16.6% |
-| 3 | Pablo Colop | 202500752 | Reunión de planificación, desarrollo de informes, preguntas Kahoot, exposición: Arquitectura (6 min). | 16.6% |
-| 4 | Walter Martinez | 202500147 | Reunión de planificación, desarrollo de informes, preguntas Kahoot, exposición: Métodos HTTP (6 min). | 16.6% |
-| 5 | Aura Marina | 202500244 | Reunión de planificación, desarrollo de informes, preguntas Kahoot, exposición: Intercambio de información (6 min). | 16.6% |
-| 6 | Chung Kim | 202501625 | Reunión de planificación, desarrollo de informes, preguntas Kahoot, exposición: Seguridad en APIs REST (6 min). | 16.6% |
-| | **Total** | | | **100%** |
+
+| No. | Nombre          | Carnet    | Tareas realizadas                                                                                                   | Participación (%) |
+|:---:|:--------------- |:--------- |:------------------------------------------------------------------------------------------------------------------- |:-----------------:|
+| 1   | Denis Abad      | 202504781 | Reunión de planificación, desarrollo de informes, exposición de presentación práctica (10 min).                     | 17.0%             |
+| 2   | Esther Garcia   | 202500170 | Reunión de planificación, desarrollo de informes, preguntas Kahoot, exposición: Introducción (6 min).               | 16.6%             |
+| 3   | Pablo Colop     | 202500752 | Reunión de planificación, desarrollo de informes, preguntas Kahoot, exposición: Arquitectura (6 min).               | 16.6%             |
+| 4   | Walter Martinez | 202500147 | Reunión de planificación, desarrollo de informes, preguntas Kahoot, exposición: Métodos HTTP (6 min).               | 16.6%             |
+| 5   | Aura Marina     | 202500244 | Reunión de planificación, desarrollo de informes, preguntas Kahoot, exposición: Intercambio de información (6 min). | 16.6%             |
+| 6   | Chung Kim       | 202501625 | Reunión de planificación, desarrollo de informes, preguntas Kahoot, exposición: Seguridad en APIs REST (6 min).     | 16.6%             |
+|     | **Total**       |           |                                                                                                                     | **100%**          |
 
 ---
 
