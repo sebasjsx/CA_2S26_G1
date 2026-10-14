@@ -141,7 +141,7 @@ Estos archivos corresponden al material preparado para la simulación. El acta d
 
 La grabación presencial debe incorporarse aquí mediante el reproductor de YouTube, para que se pueda visualizar directamente desde Docusaurus. **El video todavía no fue proporcionado para este documento**, por lo que no se incluye una dirección ficticia.
 
-<iframe width="1335" height="751" src="https://www.youtube.com/embed/mAKfh9VqZAI" title="12 de octubre de 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="800" height="400" src="https://www.youtube.com/embed/mAKfh9VqZAI" title="12 de octubre de 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 11. Conclusión
 
