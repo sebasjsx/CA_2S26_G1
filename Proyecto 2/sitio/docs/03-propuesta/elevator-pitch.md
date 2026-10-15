@@ -12,7 +12,7 @@ Cada integrante planteó una solución diferente, explicando el problema identif
 
 ## 2. Elevator Pitch individuales
 
-### 2.1 Denis Abad
+### 2.1 Walter Martínez
 
 **Propuesta: Control digital de inventario**
 
@@ -22,11 +22,11 @@ Esta solución busca facilitar el control del inventario, reducir el tiempo dedi
 
 **Video del Elevator Pitch:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fOeMGWN7zm8?si=9-Ecpmg-5cQY458s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n4JMFaK24Co" title="Proyecto CA 202500147" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>---
 
 ---
 
-### 2.2 Esther García
+### 2.2 Chung Kim
 
 **Propuesta: Organización de pedidos y turnos**
 
@@ -36,7 +36,7 @@ Esta herramienta permitiría dar seguimiento a cada pedido y facilitar la atenci
 
 **Video del Elevator Pitch:**
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O5yd9nmNkUs" title="Chung Orden y pedidos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -54,7 +54,7 @@ Esta solución permitiría organizar mejor la información de los eventos y faci
 
 ---
 
-### 2.4 Walter Martínez
+### 2.4 Esther García
 
 **Propuesta: Pedidos a domicilio dentro de la USAC**
 
@@ -64,7 +64,15 @@ La propuesta busca facilitar las solicitudes de entrega, organizar los pedidos y
 
 **Video del Elevator Pitch:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n4JMFaK24Co" title="Proyecto CA 202500147" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe
+  width="315"
+  height="560"
+  src="https://www.youtube.com/embed/f-qI_wLc46I"
+  title="YouTube Short"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
 
 ---
 
@@ -82,7 +90,7 @@ La finalidad es dar a conocer Manos Sobre la Pizza a más personas y facilitar q
 
 ---
 
-### 2.6 Chung Kim
+### 2.6 Denis Abad
 
 **Propuesta: Control de ventas y análisis de temporadas**
 
@@ -92,6 +100,6 @@ También permitiría comparar los resultados de diferentes días o temporadas pa
 
 **Video del Elevator Pitch:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O5yd9nmNkUs" title="Chung Orden y pedidos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fOeMGWN7zm8?si=9-Ecpmg-5cQY458s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
