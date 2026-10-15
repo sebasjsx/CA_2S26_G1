@@ -18,4 +18,9 @@ La siguiente fotografía documenta la visita del equipo al establecimiento "KC'S
 
 A continuación, se encuentra el enlace de referencia al audio completo de la entrevista realizada durante el trabajo de campo:
 
-[🔊 Escuchar el audio de la entrevista](../../static/entrevista.mp3)
+<audio controls>
+  <source
+    src="/CA_2S26_G1/documentos/entrevista.mp3"
+    type="audio/mpeg"
+  />
+</audio>
