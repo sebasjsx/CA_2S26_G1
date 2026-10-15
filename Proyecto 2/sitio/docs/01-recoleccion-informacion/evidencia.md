@@ -8,6 +8,8 @@ A continuación, se muestra el tablero de Trello utilizado para la gestión de t
 
 ![Tablero de Trello - Asignación de Tareas](../../static/img/evidencia2.png)
 
+[🔗 Ver el tablero de Trello aquí](https://trello.com/invite/b/6ad01e214802d9d6a711f816/ATTI8acd31ddf6ac3990c1145cc71fdbba0fEB0B6BAB/my-trello-board)
+
 ### Visita al Negocio
 
 La siguiente fotografía documenta la visita del equipo al establecimiento "KC'S PIZZA", donde se llevó a cabo la entrevista con el propietario para la recolección de información.
